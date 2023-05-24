@@ -1,0 +1,36 @@
+/* NousTrouverPage.css */
+.NousTrouver {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: var(--bg-color);
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin-bottom: 600px;
+  margin-top: 100px;
+}
+
+.NousTrouver h2 {
+  font-family: Arial, sans-serif;
+  font-size: 32px;
+  color: var(--text-color);
+  font-weight: bold;
+}
+
+.NousTrouver p {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  color: var(--text-color-light);
+}
+
+.NousTrouver img {
+  width: 100%;
+  max-height: 300px; /* Définit une hauteur maximale pour l'image */
+  border: none;
+  object-fit: contain; /* Ajuste l'image pour tenir dans la hauteur maximale */
+  margin-top: 50px; /* Espacement vide en haut de l'image */
+}
+

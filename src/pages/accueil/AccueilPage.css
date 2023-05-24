@@ -1,0 +1,161 @@
+.Accueil {
+  /* background-color: rgb(227, 190, 155); */
+  padding: 100px;
+  height: auto;
+  text-align: center;
+}
+
+.Accueil-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.Accueil-text {
+  margin-top: 50px;
+}
+
+.Accueil-text h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -100px;
+}
+
+.Accueil-text p {
+  font-size: 20px;
+  font-style: italic;
+  color: #666;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 70px;
+}
+
+.Accueil-image img {
+  width: 100%;
+  max-width: 900px;
+  border-radius: 8px;
+}
+
+
+.ScrollDown {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: bold;
+  margin-top: 100px; /* Ajustez cette valeur selon vos besoins */
+  
+}
+
+.Arrow {
+  width: 25px;
+  height: 25px;
+  border: solid black;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+  animation: scrollAnimation 1s infinite;
+}
+
+@keyframes scrollAnimation {
+  0% {
+    transform: rotate(45deg) translateY(0);
+  }
+  50% {
+    transform: rotate(45deg) translateY(8px);
+  }
+  100% {
+    transform: rotate(45deg) translateY(0);
+  }
+}
+
+
+.Specialites {
+  background-color: rgb(210, 115, 74);
+}
+
+.Specialites h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  color: #333;
+  margin-top: 200px;
+  margin-bottom: 60px;
+}
+
+.specialite-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 500px;
+}
+
+.specialite-card .card-image {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.specialite-card .card-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #333;
+
+}
+
+.specialite-card .card-text {
+  font-size: 16px;
+  color: #666;
+}
+
+.button-menu {
+  position: relative; /* Changement de position à relative pour que le positionnement soit relatif au parent */
+  left: 50%; /* Déplacer vers la moitié de la largeur du parent */
+  transform: translateX(-50%); /* Centrer horizontalement */
+  bottom: 400px; /* Ajuster la position verticale */
+  color: white;
+  font-weight: bold;
+  background-color: red;
+  width: 230px;
+  height: 70px;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 20px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.button-menu:hover {
+  background-color: green;
+}
+
+.button-menu a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.Specialites h3 {
+  font-size: 45px;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -420px;
+}
+

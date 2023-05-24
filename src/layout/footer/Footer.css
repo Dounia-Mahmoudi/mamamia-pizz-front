@@ -1,0 +1,45 @@
+.Footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #070505;
+  color: white;
+  padding: 20px;
+  border-top: solid white;
+}
+
+.Footer h2 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.Footer-logo img {
+  width: 150px;
+}
+
+.Footer-info p,
+.Footer-hours p {
+  margin: 5px 0;
+}
+
+.Footer-social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Footer-social h2 {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.Footer-social a {
+  text-decoration: none;
+  color: white;
+}
+
+.Footer-social img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
