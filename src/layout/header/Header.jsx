@@ -29,6 +29,9 @@ function Nav() {
         <li className='navbar_items slideInDown-1'>
           <Link to ="/noustrouver">NOUS TROUVER</Link>
         </li>
+        <li className='navbar_items slideInDown-1'>
+          <Link to ="/login">CONNEXION</Link>
+        </li>
     
       </ul>
       <button className='navbar_burger' onClick={handleShowlinks}>

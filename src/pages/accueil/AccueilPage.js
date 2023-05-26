@@ -10,9 +10,11 @@ import LeResto from '../../images/resto.png';
 import img1 from '../../images/img1.jpg';
 import img2 from '../../images/img2.jpg';
 import img3 from '../../images/img3.jpg';
+import Login from '../login/Login';
 
-function AccueilSection() {
+function AccueilSection({ isAdmin }) {
   return (
+    
     <section className="Accueil" id="accueil">
       <div className="Accueil-content">
         <div className="Accueil-text">
@@ -24,6 +26,12 @@ function AccueilSection() {
         <div className="Accueil-image">
           <img src={LeResto} alt="Accueil" />
         </div>
+        {isAdmin && (
+          <div className="Login-container">
+            <h3>Connexion administrateur</h3>
+            <Login />
+          </div>
+        )}
       </div>
     </section>
   );
@@ -75,7 +83,7 @@ function SpecialitesSection() {
           </Col>
         </Row>
       </Container>
-       <div className="button-menu">
+      <div className="button-menu">
         <Link to="/menu">DECOUVRIR NOTRE CARTE</Link>
       </div>
       <h3>N'ATTENDEZ PLUS POUR COMMANDER ! </h3>
@@ -97,6 +105,5 @@ function AccueilPage() {
     </>
   );
 }
-
 
 export default AccueilPage;

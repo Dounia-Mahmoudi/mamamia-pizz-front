@@ -1,5 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import './MenuPage.css';
+import Header from '../../layout/header/Header';
+import Footer from '../../layout/footer/Footer';
+import lacarte from '../../images/lacarte.png';
 
 function MenuPage() {
   const [pizzas, setPizzas] = useState([]);
@@ -16,18 +19,16 @@ function MenuPage() {
   }, []);
 
   return (
-    <div>
-      <h2>LA CARTE</h2>
-      <ul>
-        {pizzas.map(pizza => (
-          <li key={pizza.id_pizza}>
-            <h3>{pizza.pizza_name}</h3>
-            <p>Catégorie: {pizza.PizzaCategory.category_name}</p>
-            <p>Prix: {pizza.pizza_price}€</p>
-          </li>
-        ))}
-      </ul>
-    </div>
+    <>
+      <Header />
+      <main>
+        <div>
+          <h2>LA CARTE DU RESTAURANT</h2>
+          <img src={lacarte} alt="Menu" className="restaurant-card-image" />
+        </div>
+      </main>
+      <Footer />
+    </>
   );
 }
 
