@@ -33,7 +33,7 @@ function Footer() {
           </div>
           <div className="col-md-3 col-sm-6">
             <div className="Footer-social">
-              <h4>SUIVEZ-NOUS SUR LES RESEAUX SOCIAUX</h4>
+              <h4>SUIVEZ-NOUS SUR LES RESEAUX SOCIAUX :</h4>
               <a href="https://t.snapchat.com/unt1zkY7" target="_blank" rel="noreferrer">
                 <img src={Snap} alt="Snap icon" />
               </a>

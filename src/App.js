@@ -4,7 +4,7 @@ import Reservation from "./pages/reservation/ReservationPage";
 import NousTrouver from "./pages/noustrouver/NousTrouverPage";
 import Menu from "./pages/menu/MenuPage";
 import Login from './pages/login/Login';
-
+import "./app.css"
 
 function App() {
   return (

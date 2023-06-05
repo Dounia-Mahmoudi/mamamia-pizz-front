@@ -1,28 +1,39 @@
-
 .Reservation {
-  margin-top: 120px;
   text-align: center;
-  margin-bottom: 500px;
+  display: flex;
+  flex-direction: column; 
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
 }
 
-.Reservation p {
-  margin-bottom: 50px;
+.Reservation h2 {
+  font-size: 28px;
 }
 
 .Reservation-form {
-  background-size: cover;
-  background-position: center;
-  background-color: white;
   display: flex;
   flex-direction: column;
-  max-width: 500px;
-  margin: 0 auto;
-  border: 1px solid #ccc;
-  padding: 20px;
+  background-color: #FFFFFF;
+  border: 1px solid #E8E8E8;
+  padding: 50px;
+  width: 60%;
+  border-radius: 5px;
+}
+
+.infos{
+  display: flex;
+  justify-content: space-around;
+}
+
+.info{
+  width:40%;
 }
 
 .Reservation-form label {
   display: block;
+  font-size: 16px;
   margin-bottom: 10px;
 }
 
@@ -31,32 +42,39 @@
 .Reservation-form input[type="time"],
 .Reservation-form input[type="number"],
 .Reservation-form textarea {
+  width: 100%;
   padding: 10px;
-  border: 2px solid #ffffff;
+  border: 1px solid #E8E8E8;
   border-radius: 5px;
   font-size: 16px;
+  margin-bottom: 20px;
 }
 
 .Reservation-form textarea {
+  border: 1px solid black;
   resize: vertical;
   min-height: 100px;
 }
 
 .Reservation-form button[type="submit"] {
-  background-color: red;
-  color: white;
-  display: flex;
-  justify-content: center;
-  padding: 10px 20px;
+  background-color: #FF0000;
+  color: #FFFFFF;
+  width: 50%;
+  margin: 0 auto;
+  padding: 10px;
   border: none;
   border-radius: 5px;
   font-size: 16px;
   cursor: pointer;
-  margin-top: 10px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-top: 20px;
 }
 
 .Reservation-form button[type="submit"]:hover {
-  background-color: #3e8e41;
+  background-color: #3E8E41;
+}
+
+.Reservation-sent {
+  color: #3E8E41;
+  font-size: 18px;
+  margin-top: 20px;
 }

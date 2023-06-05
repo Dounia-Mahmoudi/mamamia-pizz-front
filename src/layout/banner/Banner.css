@@ -75,7 +75,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   color: black;
-  background-color: red;
+  background-color: orange;
   font-weight: bold;
   background-color: linear-gradient(to right, rgb(255, 0, 0), rgb(255, 165, 0));
   width: 250px;
@@ -87,7 +87,7 @@
 }
 
 .button-reserver:hover {
-  background-color: green;
+  background-color: rgb(134, 8, 8);
 }
 
 .button-reserver a {

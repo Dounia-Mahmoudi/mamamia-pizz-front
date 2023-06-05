@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap');
-
 :root {
   --tertiary-color: #your_color;
   --quaternary-color: #your_color;
@@ -27,7 +25,7 @@ body {
   padding: 1rem;
   background-color: black;
   color: rgb(129, 130, 130);
-  z-index: 1;
+  z-index: none;
 }
 
 .navbar_links {
